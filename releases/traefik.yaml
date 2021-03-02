@@ -1,0 +1,19 @@
+---
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: traefik
+  namespace: traefik
+spec:
+  releaseName: traefik
+  chart:
+    repository: https://charts.helm.sh/stable/
+    name: traefik
+    version: 9.15.21
+  values:
+    service:
+      spec:
+        externalTrafficPolicy: local
+    logs:
+      general:
+        level: DEBUG
