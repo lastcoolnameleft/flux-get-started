@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: kuard-deployment
+  namespace: traefik
   labels:
     app: kuard
 spec:
@@ -24,6 +25,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: kuard
+  namespace: traefik
   labels:
     name: kuard
 spec:
