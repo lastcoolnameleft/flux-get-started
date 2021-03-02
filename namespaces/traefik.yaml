@@ -3,5 +3,5 @@ kind: Namespace
 metadata:
   labels:
     name: traefik
-    foo: bar
+    foo: bar2
   name: traefik
