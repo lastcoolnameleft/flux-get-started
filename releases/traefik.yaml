@@ -17,3 +17,5 @@ spec:
     logs:
       general:
         level: DEBUG
+        
+        
