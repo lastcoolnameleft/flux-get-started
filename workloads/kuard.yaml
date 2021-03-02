@@ -55,7 +55,7 @@ metadata:
 spec:
   routes:
   - kind: Rule
-    match: "(Host(`kuard.52.248.101.47.nip.io`) && Headers(`app`, `kuard`))"
+    match: "(Host(`kuard.52.171.122.235.nip.io`) && Headers(`app`, `kuard`))"
     priority: 10
     middlewares:
     - name: ipwhitelist
