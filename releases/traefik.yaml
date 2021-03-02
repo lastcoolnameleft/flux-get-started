@@ -13,7 +13,7 @@ spec:
   values:
     service:
       spec:
-        externalTrafficPolicy: local
+        externalTrafficPolicy: Local
     logs:
       general:
         level: ERROR
