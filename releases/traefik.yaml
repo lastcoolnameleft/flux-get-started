@@ -7,7 +7,7 @@ metadata:
 spec:
   releaseName: traefik
   chart:
-    repository: https://charts.helm.sh/stable/
+    repository: https://kubernetes-charts.storage.googleapis.com/
     name: traefik
     version: 9.15.21
   values:
