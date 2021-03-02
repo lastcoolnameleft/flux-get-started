@@ -16,6 +16,4 @@ spec:
         externalTrafficPolicy: local
     logs:
       general:
-        level: DEBUG
-        
-        
+        level: ERROR
