@@ -47,8 +47,8 @@ spec:
       - 127.0.0.1/32
       - 192.168.1.7
       - 47.185.206.35/32
-      - 108.199.172.172/32
-      - 144.121.43.3/32
+      - 108.199.172.172
+      - 144.121.43.3
 ---
 # All resources definition must be declared
 apiVersion: traefik.containo.us/v1alpha1
