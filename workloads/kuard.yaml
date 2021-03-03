@@ -46,7 +46,7 @@ spec:
     sourceRange:
       - 127.0.0.1/32
       - 192.168.1.7
-      #- 47.185.206.35/32
+      - 47.185.206.35/32
       - 108.199.172.172
       - 144.121.43.3
 ---
@@ -59,8 +59,8 @@ metadata:
 spec:
   routes:
   - kind: Rule
-    match: "(Host(`kuard.52.171.122.235.nip.io`))"
-    #match: "(Host(`kuard.52.171.122.235.nip.io`) && Headers(`app`, `kuard2`))"
+    #match: "(Host(`kuard.52.171.122.235.nip.io`))"
+    match: "(Host(`kuard.52.171.122.235.nip.io`) && Headers(`app`, `kuard2`))"
     priority: 10
     middlewares:
     - name: ipwhitelist
